@@ -34,6 +34,8 @@ pub enum Tee {
     Csv,
     // IBM Z Secure Execution
     Se,
+    // TPM and vTPM
+    Tpm,
 
     // This value is only used for testing an attestation server, and should not
     // be used in an actual attestation scenario.
