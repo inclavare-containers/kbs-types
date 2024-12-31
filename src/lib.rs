@@ -48,6 +48,10 @@ pub enum Tee {
     // be used in an actual attestation scenario.
     Sample,
     SampleDevice,
+
+    System,
+
+    Tpm,
 }
 
 #[derive(Clone, Serialize, Deserialize, Debug)]
