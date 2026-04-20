@@ -47,6 +47,9 @@ pub enum Tee {
     /// Hygon DCU (Deep Computing Unit)
     HygonDcu,
 
+    /// Hygon TPM attestation with SM2/SM3.
+    HygonTpm,
+
     // These values are only used for testing an attestation server, and should not
     // be used in an actual attestation scenario.
     Sample,
